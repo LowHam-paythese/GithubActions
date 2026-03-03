@@ -4,6 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
+    console.log('Received a request to the root path');
     res.send('Hello, World!');
 });
 
